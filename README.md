@@ -1,7 +1,7 @@
 # Mooju - 3D Landing Page
 
 <p align="center">
-  <img src="public/images/OG-Image.png" alt="Mooju Logo" width="300"/>
+  <img src="public/OG Image.png" alt="Mooju Logo" width="900"/>
 </p>
 
 A dynamic 3D landing page for the Mooju milk brand, featuring interactive animations and immersive product showcases. Built with Next.js, Three.js, and GSAP.
