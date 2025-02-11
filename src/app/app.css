@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer utilities {
+  .bg-radial-burst-chocolate {
+    background: 
+      radial-gradient(circle, transparent, rgba(139, 69, 19, 0.8)), 
+      repeating-conic-gradient(
+        #7b3f1d 0deg 12deg, 
+        #8E5D44 12deg 24deg
+      );
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .bg-radial-burst-cookie {
+    background: 
+      radial-gradient(circle, transparent, rgba(23, 37, 166, 0.8)), 
+      repeating-conic-gradient(
+        #0049D3 0deg 12deg, 
+        #7A91F3 12deg 24deg
+      );
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+} */
+
+:root {
+  --radial-bg: rgba(139, 69, 19, 0.8);
+  --conic-color1: #7b3f1d;
+  --conic-color2: #8E5D44;
+}
+
+.bg-radial-burst-dynamic {
+  background: 
+    radial-gradient(circle, transparent, var(--radial-bg)), 
+    repeating-conic-gradient(
+      var(--conic-color1) 0deg 12deg, 
+      var(--conic-color2) 12deg 24deg
+    );
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.alternating-text-container.bg-radial-burst-dynamic {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
