@@ -1,4 +1,4 @@
-# Mooju - 3D Landing Page
+# Mooju - 3D
 
 <p align="center">
   <img src="public/OG Image.png" alt="Mooju Logo" width="900"/>
